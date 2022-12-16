@@ -1,0 +1,151 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    padding: 40px 40px 40px 70px;
+    height: 100vh;
+}
+
+/* --------------------navbar-------------------- */
+.navbar-container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container img{
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    margin: 0 30px 0 30px;
+    font-weight: 500;
+}
+
+.list-item:first-child{
+    font-weight: 800;
+    border-bottom: 3px solid black;
+
+}
+
+.button-group{
+    display: flex;
+}
+
+div button{
+    padding: 5px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.search-icon svg{
+    margin-right: 10px;
+    width: 23px;
+}
+
+/* ------------------------------------------- */
+
+/* ----------------------Hero Banner Section------------------------- */
+
+.hero-container{
+    display: flex;
+    margin-top: 40px;
+    /* height: 716px; */
+}
+
+.square img{
+    width: 250px;
+    position: absolute;
+    top: 435px;
+    left: 270px;
+    z-index: -1;
+}
+
+.star img{
+    width: 40px;
+}
+
+
+.hero-container>span:nth-child(2){
+    position: absolute;
+    left: 1300px;
+    top: 200px;
+}
+
+.hero-container>span:nth-child(3){
+    position: absolute;
+    left: 600px;
+    top: 650px;
+}
+.globe img{
+    width: 45px;
+    position: absolute;
+    left: 800px;
+}
+
+div img{
+    width: 400px;
+}
+
+
+
+.icons img{
+    width: 30px;
+}
+
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading{
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.hero-description{
+    margin: 30px  170px 0 170px;
+    text-align: center;
+}
+
+.button-email, .button-join{
+    margin-top: 50px;
+}
+.button-email{
+    font-weight: 600;
+    padding: 5px 40px;
+}
+.button-join{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3px 5px;
+}
+
+.contact-heading{
+    margin-top: 80px;
+   text-align: center;
+   margin-bottom: 15px;
+    color: gray;
+}
+
+.icons span img{
+    margin: 0 10px;
+}
